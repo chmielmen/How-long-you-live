@@ -27,13 +27,10 @@ public class Life {
 
         long days = TimeUnit.DAYS.convert(result, TimeUnit.MILLISECONDS);
         System.out.println("You live since " + days + " days");
-
         long hours = TimeUnit.HOURS.convert(result, TimeUnit.MILLISECONDS);
         System.out.println("\t\t\t = " + formatter2.format(hours) + " hours");
-
         long seconds = TimeUnit.SECONDS.convert(result, TimeUnit.MILLISECONDS);
         System.out.println("\t\t\t = " + formatter2.format(seconds) + " seconds");
-
 
         main(null);
     }
